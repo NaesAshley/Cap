@@ -1,27 +1,47 @@
-# Project
+- make an api call?
+- try user input in one page
+- things i can do?
+- make it nice looking
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+Use the ng new generator to start your project.
+Must use angular routing
+Must use hardcoded information that is distributed using Angular services
+The hardcoded information should NOT be more complex than an array of objects. Although you may have multiple different arrays with objects that depict different models
+There should be at least 5 components
+Must use Angular services and Angular directives
+Third party styling libraries are recommended but NOT required
+Bootstrap
+Angular Material
+Application has at least 2 unique models/interfaces
+App renders in browser
 
-## Development server
+Ideas
+--home page -- lets get to know Medicare--
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. medicare eligibility -- text info
 
-## Code scaffolding
+> > nice looking
+> > User input>> if tree? are you over 35/36/ yes or no input field? with more questions.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. medicare choices
 
-## Build
+> hyperlinks to websites?
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Part D + Advantage choices
 
-## Running unit tests
+> incorporating pictures?
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. prescriptions,providers & benefits
 
-## Running end-to-end tests
+-
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. enrollment periods
 
-## Further help
+   > > display information by looping over an object???
+   > > ngfor -- pull in an API ORRRRRRR just make an array
+   > > add in the prompt questions such as:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5. XXXX medicare cost basics XXXX
+   > > cost basics calculations????
+
+> > semi--engaging?? some tpye of user input

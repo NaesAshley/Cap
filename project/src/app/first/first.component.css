@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  max-width: 200px;
+  background-color: #e6e6a7;
+  margin-bottom: 20px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav {
+  flex: 0 0 20vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}

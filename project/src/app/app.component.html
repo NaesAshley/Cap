@@ -1,73 +1,62 @@
-<h1>Angular Router App</h1>
 <!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
-<div class="grid-container">
-  <header class="header">
-    <div class="header__search">Search...</div>
-    <div class="header__avatar">picture image?</div>
-  </header>
-  <aside class="sidenav">dashboard</aside>
-  <!--another main section with larger cards-->
-  <div class="main-cards">
-    <div class="card">Card</div>
-    <div class="card">Card</div>
-    <div class="card">Card</div>
-    <footer class="footer">
-      <div class="footer__copyright">
-        copyright legal chatter that i know nothing about
-      </div>
-      <!--<div class="footer__signature">Made by Naes</div>
-    </footer> -->
-      <!-- </div> -->
-      <!-- <nav>
-  <ul>
-    <div>
-      <div class="sidenav">
-        <li>
-          <a
-            routerLink="/first-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >First Component</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/second-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >second Component</a
-          >
-        </li>
 
-        <li>
-          <a
-            routerLink="/third-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >third Component</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/fourth-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >fourth Component</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/fifth-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >fifth Component</a
-          >
-        </li>
-      </div>
+<html>
+  <!-- Sidebar/menu -->
+  <body>
+    <header><h1>Angular Router App</h1></header>
+    <div class="main">
+      <article>Article text text text</article>
+      <nav class="menu">
+        <ul>
+          <div class="overviewcard">
+            <ol class="menu_item menu_item--active">
+              <a
+                routerLink="/first-component"
+                routerLinkActive="active"
+                ariaCurrentWhenActive="page"
+                >Medicare</a
+              >
+            </ol>
+          </div>
+          <ol class="menu_item menu_iten--active">
+            <a
+              routerLink="/second-component"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >Medicare eligibility</a
+            >
+          </ol>
+          <ol class="menu_item">
+            <a
+              routerLink="/third-component"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >Talk Prescriptions</a
+            >
+          </ol>
+          <ol class="menu_item">
+            <a
+              routerLink="/fourth-component"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >Enrollment Periods</a
+            >
+          </ol>
+          <div class="overviewcard">
+            <ol class="menu_item">
+              <a
+                routerLink="/fifth-component"
+                routerLinkActive="active"
+                ariaCurrentWhenActive="page"
+                >Contact Us</a
+              >
+            </ol>
+          </div>
+        </ul>
+      </nav>
     </div>
-  </ul>
-</nav> -->
-      <!-- The routed views render in the <router-outlet>-->
-    </footer>
-  </div>
-</div>
+    <footer>Footer</footer>
+  </body>
+  <!-- The routed views render in the <router-outlet>-->
+  <router-outlet></router-outlet>
+</html>
