@@ -5,69 +5,80 @@
     <div class="header__search">Search...</div>
     <div class="header__avatar">picture image?</div>
   </header>
-  <aside class="sidenav">dashboard</aside>
+  <aside class="sidenav">
+    <!-- dashboard
+    <div>
+      <ol>
+        <div (click)="firstRoute()"><h3>first component</h3></div>
+      </ol>
+      <ol>
+        <h3>Second Component</h3>
+      </ol>
+    </div> -->
+    <app-dashboard> </app-dashboard>
+  </aside>
   <!--another main section with larger cards-->
   <div class="main-cards">
-    <div class="card">Card</div>
+    <div class="card">Card<router-outlet></router-outlet></div>
     <div class="card">Card</div>
     <div class="card">Card</div>
     <footer class="footer">
       <div class="footer__copyright">
         copyright legal chatter that i know nothing about
       </div>
-      <!--<div class="footer__signature">Made by Naes</div>
-    </footer> -->
-      <!-- </div> -->
-      <!-- <nav>
-  <ul>
-    <div>
-      <div class="sidenav">
-        <li>
-          <a
-            routerLink="/first-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >First Component</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/second-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >second Component</a
-          >
-        </li>
-
-        <li>
-          <a
-            routerLink="/third-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >third Component</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/fourth-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >fourth Component</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/fifth-component"
-            routerLinkActive="active"
-            ariaCurrentWhenActive="page"
-            >fifth Component</a
-          >
-        </li>
-      </div>
-    </div>
-  </ul>
-</nav> -->
-      <!-- The routed views render in the <router-outlet>-->
+      <div class="footer__signature">Made by Naes</div>
     </footer>
+    -->
+    <!-- </div> -->
+
+    <ul>
+      <div>
+        <div class="sidenav">
+          <li>
+            <a
+              routerLink="/first-component"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >First Component</a
+            >
+          </li>
+          <li>
+            <a
+              routerLink="/second-component"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >second Component</a
+            >
+          </li>
+
+          <li>
+            <a
+              routerLink="/third-component"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >third Component</a
+            >
+          </li>
+          <li>
+            <a
+              routerLink="/fourth-component"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >fourth Component</a
+            >
+          </li>
+          <li>
+            <a
+              routerLink="/fifth-component"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+              >fifth Component</a
+            >
+          </li>
+        </div>
+      </div>
+    </ul>
+
+    <!-- The routed views render in the <router-outlet>-->
   </div>
 </div>
