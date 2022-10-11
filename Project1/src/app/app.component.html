@@ -1,0 +1,91 @@
+<!--NavBar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand LocationName" routerLink="">NAES.</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse Location" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/home" routerLinkActive="active-link"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          routerLink="/medicare"
+          routerLinkActive="active-link"
+          >Medicare</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          routerLink="/eligibility"
+          routerLinkActive="active-link"
+          >Eligibility</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/choices" routerLinkActive="active-link"
+          >Choices</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          routerLink="/enrollment"
+          routerLinkActive="active-link"
+          >Enrollment Periods</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          routerLink="/contactus"
+          routerLinkActive="active-link"
+          >Contact Us</a
+        >
+      </li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input
+        class="form-control mr-sm-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </form> -->
+  </div>
+</nav>
+<!--Info-->
+
+<router-outlet></router-outlet>
+
+<!--Footer-->
+<div class="footer">
+  <div class="row">
+    <div class="project"></div>
+    <div class="Logos">
+      <a href="#" target=" _blank"><i class="bi bi-facebook"></i></a>
+      <a href="#" target=" _blank"><i class="bi bi-instagram"></i></a>
+      <a href="#" target=" _blank"><i class="bi bi-twitter"></i></a>
+      <a href="#" target=" _blank"><i class="bi bi-youtube"></i></a>
+    </div>
+  </div>
+</div>

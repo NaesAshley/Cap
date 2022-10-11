@@ -1,0 +1,22 @@
+.active-link {
+  font-weight: bold;
+  color: black;
+}
+
+.LocationName {
+  justify-content: left;
+}
+
+.Location {
+  justify-content: center;
+}
+
+.footer {
+  background-color: rgb(222, 220, 220);
+  padding: 20px 10px;
+  justify-content: right;
+}
+
+.logos {
+  padding-right: 0px 10px;
+}

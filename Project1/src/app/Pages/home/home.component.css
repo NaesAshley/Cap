@@ -1,0 +1,26 @@
+.banner {
+  background-image: url("/assets/Pictures/Photos Seniors/9.png");
+  height: 700px;
+  background-position: 50% 25%;
+  background-size: cover;
+}
+
+img {
+  min-height: fit-content;
+}
+
+.banner h1,
+h2,
+h3 {
+  color: black;
+  font-size: 60px;
+  font-weight: bold;
+  top: 25%;
+  position: relative;
+  left: 50%;
+}
+
+.banner h1 {
+  color: white;
+  background-color: #3d6f70;
+}
