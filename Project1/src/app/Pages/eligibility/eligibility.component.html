@@ -1,1 +1,11 @@
 <p>eligibility works!</p>
+<div class="containerQuiz">
+  <div class="row">
+    <div class="col-sm-8 offset-2">
+      <h1>{{ quizzes[currentQuiz].question</h1>
+      <ul class="list-group" ngFor="let quiz of quizzes[currentQuiz].answer">
+        <li class="list-group-item">{{ quiz.option }}></li>
+      </ul>
+    </div>
+  </div>
+</div>

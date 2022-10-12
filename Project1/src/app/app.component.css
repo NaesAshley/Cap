@@ -20,3 +20,7 @@
 .logos {
   padding-right: 0px 10px;
 }
+
+.footer {
+  justify-content: end;
+}
