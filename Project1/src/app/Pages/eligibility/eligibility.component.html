@@ -2,9 +2,11 @@
 <div class="containerQuiz">
   <div class="row">
     <div class="col-sm-8 offset-2">
-      <h1>{{ quizzes[currentQuiz].question</h1>
-      <ul class="list-group" ngFor="let quiz of quizzes[currentQuiz].answer">
-        <li class="list-group-item">{{ quiz.option }}></li>
+      <h1>{{ quizzes[currentQuiz].question }}</h1>
+      <h1>jordan</h1>
+      <p>{{ quizzes[currentQuiz].answer[0].option }}</p>
+      <ul class="list-group" *ngFor="let quiz of quizzes[currentQuiz].answer">
+        <p>{{ quiz.option }} cars</p>
       </ul>
     </div>
   </div>
