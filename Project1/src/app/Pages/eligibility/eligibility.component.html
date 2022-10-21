@@ -1,12 +1,21 @@
-<p>eligibility works!</p>
+<!-- <p>eligibility works!</p> -->
 <div class="containerQuiz">
   <div class="row">
     <div class="col-sm-8 offset-2">
+      <p class="text-center">{{ currentQuiz + 1 }} of {{ quizzes.length }}</p>
       <h1>{{ quizzes[currentQuiz].question }}</h1>
-      <h1>jordan</h1>
-      <p>{{ quizzes[currentQuiz].answer[0].option }}</p>
+      <!-- <p>{{ quizzes[currentQuiz].answer[0].option }}</p> -->
       <ul class="list-group" *ngFor="let quiz of quizzes[currentQuiz].answer">
-        <p>{{ quiz.option }} cars</p>
+        <label>
+          <li class="list-group-item">
+            <input
+              type="radio"
+              name="options"
+              (change)="onAnswer(quiz.option)"
+              [disabled]="answerSelected"
+            />{{ quiz.option }}
+          </li>
+        </label>
       </ul>
     </div>
   </div>

@@ -11,10 +11,18 @@ export class EligibilityComponent implements OnInit {
   quizzes: Quiz[] = [];
 
   currentQuiz = 0;
+  answerSelected = false;
+  correctAnswer = 0;
+  incorrectAnswers = 0;
 
   constructor(private serviceService: ServiceService) {}
 
   ngOnInit(): void {
     this.quizzes = this.serviceService.getQuizzes();
+  }
+
+  onAnswer(option: string) {
+    this.currentQuiz++;
+    this.answerSelected = true;
   }
 }
