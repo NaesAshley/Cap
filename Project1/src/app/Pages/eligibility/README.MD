@@ -17,4 +17,3 @@ Do you get group health benefits through your, your spouse’s or your family me
 
 - Yes
 - No
-  gi tsta
