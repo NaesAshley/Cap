@@ -10,33 +10,34 @@ Angular Material
 Application has at least 2 unique models/interfaces
 App renders in browser
 
-Ideas
---home page -- lets get to know Medicare--
+Ideas 0. home page -- lets get to know Medicare--
 
-1. medicare eligibility -- text info
+1. About Medicare?
+
+> > incorporate slide show already incorporated
+
+2. medicare eligibility -- text info
 
 > > nice looking
 > > User input>> if tree? are you over 35/36/ yes or no input field? with more questions.
 
-2. medicare choices
-
-> hyperlinks to websites?
-
-- Part D + Advantage choices
+3. Find your company Choices! hyperlink to their company websites
 
 > incorporating pictures?
 
-3. prescriptions,providers & benefits
-
--
+> hyperlinks to websites?
+>
+> > make a link to each company website?
+> > Aetna?
+> > Blue Cross?
 
 4. enrollment periods
 
    > > display information by looping over an object???
    > > ngfor -- pull in an API ORRRRRRR just make an array
-   > > add in the prompt questions such as:
+   > > add in the prompt questions such as:\*\*\*
 
-5. XXXX medicare cost basics XXXX
+5. Contact us?
    > > cost basics calculations????
 
 > > semi--engaging?? some tpye of user input

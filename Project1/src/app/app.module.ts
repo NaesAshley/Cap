@@ -19,12 +19,18 @@ const routes: Routes = [
   { path: 'enrollment', component: EnrollmentComponent },
   { path: 'medicare', component: MedicareComponent },
   { path: 'contactus', component: ContactUsComponent },
-  { path: 'navbar', component: NavbarComponent },
-  { path: 'footer', component: FooterComponent },
 ];
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    ChoicesComponent,
+    EligibilityComponent,
+    EnrollmentComponent,
+    MedicareComponent,
+    ContactUsComponent,
+  ],
 
   imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],

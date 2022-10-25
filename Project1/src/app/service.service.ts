@@ -7,33 +7,33 @@ import { Quiz } from './quiz.model';
 export class ServiceService {
   quizzes: Quiz[] = [
     {
-      question: 'Are you 65(+) years or older? a',
+      question: 'Are you 65(+) years or older?',
       answer: [
-        { option: 'Yes', correct: true },
-        { option: 'No', correct: false },
+        { option: ' Yes', correct: true },
+        { option: ' No', correct: false },
       ],
     },
     {
       question:
         'Have you worked at least 10 years for which you paid Medicare taxes?',
       answer: [
-        { option: 'Yes', correct: true },
-        { option: 'No', correct: false },
+        { option: ' Yes', correct: true },
+        { option: ' No', correct: false },
       ],
     },
     {
       question: 'Do you live in the U.S. or one of its territories?',
       answer: [
-        { option: 'Yes', correct: true },
-        { option: 'No', correct: false },
+        { option: ' Yes', correct: true },
+        { option: ' No', correct: false },
       ],
     },
     {
       question:
         'Do you get group health benefits through your, your spouse’s or your family member’s current employer?',
       answer: [
-        { option: 'Yes', correct: true },
-        { option: 'No', correct: false },
+        { option: ' Yes', correct: true },
+        { option: ' No', correct: false },
       ],
     },
   ];
